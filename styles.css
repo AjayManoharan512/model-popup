@@ -1,0 +1,31 @@
+#subbtn{
+    background-color: green;
+    margin-top: 30px;
+}
+.divsub{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+}
+.popup{
+    width: 300px;
+    height: 240px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgb(207, 52, 52);
+    padding-left: 30px;
+    visibility: hidden;
+}
+.openpopup{
+    visibility: visible;
+}
+#closebtn{
+    background-color: red;
+    float: right;
+    margin-right: 10px;
+    
+}
